@@ -1,0 +1,204 @@
+#jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_mian_prev .child::after, #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_prev .child::after {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+#jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_mian_next .child::after, #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_next .child::after {
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg); }
+
+#jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_mian_prev, #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_mian_prev .child::after, #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_mian_next, #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_mian_next .child::after, #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_close, #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_prev, #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_next, #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_slider .jdga_gs_mirror_slider_out .jdga_gs_mirror_slider_inner li {
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s; }
+
+.child {
+  display: inline-block;
+  vertical-align: middle; }
+
+.helper {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  width: 0px; }
+
+#jewDreamGalleryArea {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 999; }
+  #jewDreamGalleryArea .jdga_gallery {
+    position: fixed;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    #jewDreamGalleryArea .jdga_gallery .jdga_gallery_backLayout {
+      background-color: rgba(51, 51, 51, 0.76);
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0%;
+      left: 0%;
+      z-index: 1; }
+    #jewDreamGalleryArea .jdga_gallery .jdga_gallery_preloader {
+      position: relative;
+      z-index: 2;
+      width: 150px;
+      height: 100%;
+      margin: auto; }
+      #jewDreamGalleryArea .jdga_gallery .jdga_gallery_preloader .jdga_gallery_preloader_item {
+        background-image: url("../../images/preloader_jd_faster.gif");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 140px;
+        height: 140px; }
+  #jewDreamGalleryArea .jdga_gallery_sliders {
+    display: none;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%; }
+    #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian {
+      position: relative; }
+      #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_mian_prev {
+        position: absolute;
+        z-index: 2;
+        height: 100%;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        cursor: pointer; }
+        #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_mian_prev .child::after {
+          width: 35px;
+          height: 35px;
+          border: solid rgba(255, 255, 255, 0.43);
+          border-width: 2px 0 0 2px;
+          border-radius: 3px 0 0 0;
+          content: "";
+          display: block;
+          position: relative;
+          left: 25px; }
+        #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_mian_prev:hover .child::after {
+          border-color: #ffffff; }
+      #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_mian_next {
+        position: absolute;
+        z-index: 2;
+        height: 100%;
+        top: 0%;
+        right: 0%;
+        width: 50%;
+        cursor: pointer;
+        text-align: right; }
+        #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_mian_next .child::after {
+          width: 35px;
+          height: 35px;
+          border: solid rgba(255, 255, 255, 0.43);
+          border-width: 2px 0 0 2px;
+          border-radius: 3px 0 0 0;
+          content: "";
+          position: relative;
+          right: 15px;
+          display: block; }
+        #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_mian_next:hover .child::after {
+          border-color: #ffffff; }
+      #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_close {
+        position: absolute;
+        z-index: 3;
+        top: 0%;
+        right: 0%;
+        padding: 10px;
+        font-size: 30px;
+        color: rgba(255, 255, 255, 0.65);
+        cursor: pointer; }
+        #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_close:hover {
+          color: #ffffff; }
+      #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_mian_slider {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding-top: 15px; }
+        #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_mian_slider img {
+          height: 100%;
+          display: none;
+          border-radius: 3px; }
+          #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mian .jdga_gs_mian_slider img.activeJD {
+            display: inline-block; }
+    #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror {
+      height: 140px;
+      width: 100%;
+      position: relative; }
+      #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_prev {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50px;
+        height: 100%;
+        text-align: center;
+        cursor: pointer; }
+        #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_prev .child::after {
+          width: 20px;
+          height: 20px;
+          border: solid #ffffff;
+          border-width: 2px 0 0 2px;
+          border-radius: 3px 0 0 0;
+          content: "";
+          display: block;
+          position: relative;
+          left: 8px; }
+        #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_prev:hover {
+          background-color: rgba(60, 60, 60, 0.5); }
+      #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_next {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50px;
+        height: 100%;
+        text-align: center;
+        cursor: pointer; }
+        #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_next .child::after {
+          width: 20px;
+          height: 20px;
+          border: solid #ffffff;
+          border-width: 2px 0 0 2px;
+          border-radius: 3px 0 0 0;
+          content: "";
+          display: block; }
+        #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_next:hover {
+          background-color: #3c3c3c; }
+      #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror:hover > div {
+        opacity: 1; }
+      #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_slider {
+        padding: 0 50px; }
+        #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_slider .jdga_gs_mirror_slider_out {
+          width: 100%;
+          overflow: hidden; }
+          #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_slider .jdga_gs_mirror_slider_out .jdga_gs_mirror_slider_inner {
+            padding: 10px 0;
+            margin: 0;
+            list-style-type: none;
+            text-align: center;
+            position: relative; }
+            #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_slider .jdga_gs_mirror_slider_out .jdga_gs_mirror_slider_inner li {
+              display: inline-block;
+              margin: 2px 5px;
+              border: 3px solid transparent;
+              cursor: pointer;
+              border-radius: 3px; }
+              #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_slider .jdga_gs_mirror_slider_out .jdga_gs_mirror_slider_inner li img {
+                border-radius: 3px; }
+              #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_slider .jdga_gs_mirror_slider_out .jdga_gs_mirror_slider_inner li:hover {
+                border: 3px solid rgba(255, 255, 255, 0.5); }
+              #jewDreamGalleryArea .jdga_gallery_sliders .jdga_gs_mirror .jdga_gs_mirror_slider .jdga_gs_mirror_slider_out .jdga_gs_mirror_slider_inner li.activeJD {
+                border: 3px solid #ffffff; }
+
+/*# sourceMappingURL=jewDream.css.map */
